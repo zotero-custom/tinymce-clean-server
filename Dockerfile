@@ -1,4 +1,5 @@
-FROM node:7-alpine
+# FROM node:7-alpine
+FROM node:12-alpine
 
 WORKDIR /usr/src/app
 COPY . .
